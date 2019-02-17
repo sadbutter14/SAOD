@@ -2,8 +2,8 @@
 #include <stdlib.h>
 #include <ctime>
 
-#define n 5
-int x, sum = 0, A[3][n], num = 1;
+#define n 3
+int x, sum, A[3][n], num;
 
 void FillInc() {
     for (int x = 1, i = 0; i < n; i++) {
@@ -30,20 +30,20 @@ void FillRand() {
 }
 
 void CheckSum() {
+    sum = 0;
     for (int i = 0; i < n; i++) {
         sum += A[x][i];
     }
     printf("\n%d", sum);
-    sum = 0;
 }
 
 void RunNumber() {
+    num = 1;
     for (int i = 0; i < n - 1; i++) {
         if (A[x][i] > A[x][i + 1])
             num++;
     }
     printf("\n%d", num);
-    num = 1;
 
 }
 
@@ -54,18 +54,17 @@ void PrintMas() {
 
 int main() {
     srand(time(NULL));
-
     FillInc();
-    PrintMas();
-    CheckSum();
-    RunNumber();
+        PrintMas();
+        CheckSum();
+        RunNumber();
     FillDec();
-    PrintMas();
-    CheckSum();
-    RunNumber();
+        PrintMas();
+        CheckSum();
+        RunNumber();
     FillRand();
-    PrintMas();
-    CheckSum();
-    RunNumber();
+        PrintMas();
+        CheckSum();
+        RunNumber();
 }
 
