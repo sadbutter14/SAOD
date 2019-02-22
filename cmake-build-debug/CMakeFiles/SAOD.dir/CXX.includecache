@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/maks/CLionProjects/SAOD/SAOD1.cpp
+/home/maks/CLionProjects/SAOD/lab1.cpp
 stdio.h
 -
 stdlib.h

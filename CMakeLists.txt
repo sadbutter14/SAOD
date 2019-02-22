@@ -3,4 +3,4 @@ project(SAOD)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(SAOD SAOD1.cpp)
+add_executable(SAOD lab1.cpp)

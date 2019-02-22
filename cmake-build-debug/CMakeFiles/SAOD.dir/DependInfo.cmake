@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/maks/CLionProjects/SAOD/SAOD1.cpp" "/home/maks/CLionProjects/SAOD/cmake-build-debug/CMakeFiles/SAOD.dir/SAOD1.cpp.o"
+  "/home/maks/CLionProjects/SAOD/lab1.cpp" "/home/maks/CLionProjects/SAOD/cmake-build-debug/CMakeFiles/SAOD.dir/lab1.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

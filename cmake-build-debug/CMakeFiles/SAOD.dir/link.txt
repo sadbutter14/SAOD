@@ -1,1 +1,1 @@
-/usr/bin/c++  -g   CMakeFiles/SAOD.dir/SAOD1.cpp.o  -o SAOD 
+/usr/bin/c++  -g   CMakeFiles/SAOD.dir/lab1.cpp.o  -o SAOD 

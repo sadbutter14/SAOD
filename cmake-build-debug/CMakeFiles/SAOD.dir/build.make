@@ -57,27 +57,27 @@ include CMakeFiles/SAOD.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/SAOD.dir/flags.make
 
-CMakeFiles/SAOD.dir/SAOD1.cpp.o: CMakeFiles/SAOD.dir/flags.make
-CMakeFiles/SAOD.dir/SAOD1.cpp.o: ../SAOD1.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maks/CLionProjects/SAOD/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/SAOD.dir/SAOD1.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/SAOD.dir/SAOD1.cpp.o -c /home/maks/CLionProjects/SAOD/SAOD1.cpp
+CMakeFiles/SAOD.dir/lab1.cpp.o: CMakeFiles/SAOD.dir/flags.make
+CMakeFiles/SAOD.dir/lab1.cpp.o: ../lab1.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maks/CLionProjects/SAOD/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/SAOD.dir/lab1.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/SAOD.dir/lab1.cpp.o -c /home/maks/CLionProjects/SAOD/lab1.cpp
 
-CMakeFiles/SAOD.dir/SAOD1.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SAOD.dir/SAOD1.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/maks/CLionProjects/SAOD/SAOD1.cpp > CMakeFiles/SAOD.dir/SAOD1.cpp.i
+CMakeFiles/SAOD.dir/lab1.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SAOD.dir/lab1.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/maks/CLionProjects/SAOD/lab1.cpp > CMakeFiles/SAOD.dir/lab1.cpp.i
 
-CMakeFiles/SAOD.dir/SAOD1.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SAOD.dir/SAOD1.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/maks/CLionProjects/SAOD/SAOD1.cpp -o CMakeFiles/SAOD.dir/SAOD1.cpp.s
+CMakeFiles/SAOD.dir/lab1.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SAOD.dir/lab1.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/maks/CLionProjects/SAOD/lab1.cpp -o CMakeFiles/SAOD.dir/lab1.cpp.s
 
 # Object files for target SAOD
 SAOD_OBJECTS = \
-"CMakeFiles/SAOD.dir/SAOD1.cpp.o"
+"CMakeFiles/SAOD.dir/lab1.cpp.o"
 
 # External object files for target SAOD
 SAOD_EXTERNAL_OBJECTS =
 
-SAOD: CMakeFiles/SAOD.dir/SAOD1.cpp.o
+SAOD: CMakeFiles/SAOD.dir/lab1.cpp.o
 SAOD: CMakeFiles/SAOD.dir/build.make
 SAOD: CMakeFiles/SAOD.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/maks/CLionProjects/SAOD/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable SAOD"

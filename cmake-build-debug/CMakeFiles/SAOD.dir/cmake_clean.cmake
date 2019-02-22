@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/SAOD.dir/SAOD1.cpp.o"
+  "CMakeFiles/SAOD.dir/lab1.cpp.o"
   "SAOD.pdb"
   "SAOD"
 )

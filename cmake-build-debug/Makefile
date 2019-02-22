@@ -123,32 +123,32 @@ SAOD/fast:
 	$(MAKE) -f CMakeFiles/SAOD.dir/build.make CMakeFiles/SAOD.dir/build
 .PHONY : SAOD/fast
 
-SAOD1.o: SAOD1.cpp.o
+lab1.o: lab1.cpp.o
 
-.PHONY : SAOD1.o
+.PHONY : lab1.o
 
 # target to build an object file
-SAOD1.cpp.o:
-	$(MAKE) -f CMakeFiles/SAOD.dir/build.make CMakeFiles/SAOD.dir/SAOD1.cpp.o
-.PHONY : SAOD1.cpp.o
+lab1.cpp.o:
+	$(MAKE) -f CMakeFiles/SAOD.dir/build.make CMakeFiles/SAOD.dir/lab1.cpp.o
+.PHONY : lab1.cpp.o
 
-SAOD1.i: SAOD1.cpp.i
+lab1.i: lab1.cpp.i
 
-.PHONY : SAOD1.i
+.PHONY : lab1.i
 
 # target to preprocess a source file
-SAOD1.cpp.i:
-	$(MAKE) -f CMakeFiles/SAOD.dir/build.make CMakeFiles/SAOD.dir/SAOD1.cpp.i
-.PHONY : SAOD1.cpp.i
+lab1.cpp.i:
+	$(MAKE) -f CMakeFiles/SAOD.dir/build.make CMakeFiles/SAOD.dir/lab1.cpp.i
+.PHONY : lab1.cpp.i
 
-SAOD1.s: SAOD1.cpp.s
+lab1.s: lab1.cpp.s
 
-.PHONY : SAOD1.s
+.PHONY : lab1.s
 
 # target to generate assembly for a file
-SAOD1.cpp.s:
-	$(MAKE) -f CMakeFiles/SAOD.dir/build.make CMakeFiles/SAOD.dir/SAOD1.cpp.s
-.PHONY : SAOD1.cpp.s
+lab1.cpp.s:
+	$(MAKE) -f CMakeFiles/SAOD.dir/build.make CMakeFiles/SAOD.dir/lab1.cpp.s
+.PHONY : lab1.cpp.s
 
 # Help Target
 help:
@@ -159,9 +159,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... SAOD"
 	@echo "... edit_cache"
-	@echo "... SAOD1.o"
-	@echo "... SAOD1.i"
-	@echo "... SAOD1.s"
+	@echo "... lab1.o"
+	@echo "... lab1.i"
+	@echo "... lab1.s"
 .PHONY : help
 
 
